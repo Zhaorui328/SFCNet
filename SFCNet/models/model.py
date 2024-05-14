@@ -1,3 +1,9 @@
+"""
+@author: zhaorui@Dalian Minzu University
+@software: PyCharm
+@file: SwinTransformer.py
+@time: 2024/5/14 7:23
+"""
 
 import torch
 from torch import nn
