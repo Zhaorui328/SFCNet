@@ -3,7 +3,7 @@
 @author: zhaorui@Dalian Minzu University
 @software: PyCharm
 @file: SwinNet_test.py
-@time: 2021/5/27 09:34
+@time: 2024/5/14 09:34
 """
 
 import torch
