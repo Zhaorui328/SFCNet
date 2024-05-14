@@ -1,3 +1,10 @@
+"""
+@author: zhaorui@Dalian Minzu University
+@software: PyCharm
+@file: SwinNet_test.py
+@time: 2024/5/14 09:34
+"""
+
 import os
 from PIL import Image
 import torch.utils.data as data
