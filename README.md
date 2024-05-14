@@ -1,6 +1,8 @@
 # Spatial-Frequency Collaborative Learning for Camouflaged Object Detection
 ## Requirements
-* 
+* python 3.10.11
+* pytorch 2.0.1
+* Numpy 1.25.1
 * torchvision
 ## Saliency maps
 ## Trained model
