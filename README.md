@@ -7,7 +7,6 @@
 * ## Trained model
 * Download the following trained models [SFCNet](https://pan.baidu.com/s/17rXE--VxuS-KcEM3KOwQ2w)(Code:sfc1) and put them in /capts.
 ## Saliency maps
-* Baidu: https://pan.baidu.com/s/13JSvR27LmcebXeyk2Pbzag，Code：sfc1
 * You can download the tested results map at - Baidu Pan link(https://pan.baidu.com/s/13JSvR27LmcebXeyk2Pbzag) with the fetch code:sfc1.
 
 ## Citation
