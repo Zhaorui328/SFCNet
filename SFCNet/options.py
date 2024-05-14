@@ -1,6 +1,6 @@
-# -*- coding: utf-8 -*-
+
 """
-@author: caigentan@AnHui University
+@author: zhaorui@Dalian Minzu University
 @software: PyCharm
 @file: options.py
 @time: 2021/5/16 14:52

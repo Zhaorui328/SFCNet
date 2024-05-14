@@ -1,6 +1,6 @@
-# -*- coding: utf-8 -*-
+
 """
-@author: caigentan@AnHui University
+@author: zhaorui@Dalian Minzu University
 @software: PyCharm
 @file: SwinNet_test.py
 @time: 2021/5/27 09:34

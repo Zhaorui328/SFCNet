@@ -1,9 +1,9 @@
-# -*- coding: utf-8 -*-
+
 """
-@author: caigentan@AnHui University
+@author: zhaorui@Dalian Minzu University
 @software: PyCharm
 @file: config.py
-@time: 2021/5/6 15:51
+@time: 2024/5/14 15:51
 """
 
 import os

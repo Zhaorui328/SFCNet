@@ -1,9 +1,9 @@
-# -*- coding: utf-8 -*-
+
 """
-@author: caigentan@AnHui University
+@author: zhaorui@Dalian Minzu University
 @software: PyCharm
 @file: SwinNet.py
-@time: 2021/5/6 16:12
+@time: 2024/5/14 16:12
 """
 import os
 import torch

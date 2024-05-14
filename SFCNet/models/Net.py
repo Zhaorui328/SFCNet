@@ -1,9 +1,9 @@
-# -*- coding: utf-8 -*-
+
 """
-@author: caigentan@AnHui University
+@author: zhaorui@Dalian Minzu University
 @software: PyCharm
 @file: SwinTransformer.py
-@time: 2021/5/6 7:23
+@time: 2024/5/14 7:23
 """
 
 import torch

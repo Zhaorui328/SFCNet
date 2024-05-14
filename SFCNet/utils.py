@@ -1,9 +1,9 @@
-# -*- coding: utf-8 -*-
+
 """
-@author: caigentan@AnHui University
+@author: zhaorui@Dalian Minzu University
 @software: PyCharm
 @file: utils.py
-@time: 2021/5/6 16:16
+@time: 2024/5/14 16:16
 """
 def clip_gradient(optimizer, grad_clip):
     for group in optimizer.param_groups:

@@ -1,9 +1,9 @@
-# -*- coding: utf-8 -*-
+
 """
-@author: caigentan@AnHui University
+@author: zhaorui@Dalian Minzu University
 @software: PyCharm
 @file: optimizer.py
-@time: 2021/5/6 15:58
+@time: 2024/5/14 15:58
 """
 
 from torch import optim as optim
