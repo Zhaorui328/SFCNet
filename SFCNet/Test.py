@@ -1,6 +1,6 @@
 
 """
-@author: zhaorui@Dalian Minzu University
+@author: Zhaorui@Dalian Minzu University
 @software: PyCharm
 @file: Test.py
 @time: 2024/5/14 09:34
