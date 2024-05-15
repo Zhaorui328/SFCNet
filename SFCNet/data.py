@@ -1,7 +1,7 @@
 """
 @author: zhaorui@Dalian Minzu University
 @software: PyCharm
-@file: SwinNet_test.py
+@file: Net_test.py
 @time: 2024/5/14 09:34
 """
 
