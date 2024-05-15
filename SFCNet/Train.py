@@ -2,7 +2,7 @@
 """
 @author: zhaorui@Dalian Minzu University
 @software: PyCharm
-@file: SwinNet.py
+@file: Net.py
 @time: 2024/5/14 16:12
 """
 import os
@@ -199,12 +199,12 @@ def train(train_loader, model, optimizer, epoch, save_path):
 
 
         if (epoch) % 2 == 0:
-            torch.save(model.state_dict(), save_path + 'SwinTransNet_epoch_{}.pth'.format(epoch))
+            torch.save(model.state_dict(), save_path + 'Net_epoch_{}.pth'.format(epoch))
     except KeyboardInterrupt:
         print('Keyboard Interrupt: save model and exit.')
         if not os.path.exists(save_path):
             os.makedirs(save_path)
-        torch.save(model.state_dict(), save_path + 'SwinTransNet_epoch_{}.pth'.format(epoch + 1))
+        torch.save(model.state_dict(), save_path + 'Net_epoch_{}.pth'.format(epoch + 1))
         print('save checkpoints successfully!')
         raise
 
