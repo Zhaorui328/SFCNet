@@ -1,8 +1,8 @@
 
 """
-@author: zhaorui@Dalian Minzu University
+@author: Zhaorui@Dalian Minzu University
 @software: PyCharm
-@file: Text.py
+@file: Train.py
 @time: 2024/5/14 16:12
 """
 import os
