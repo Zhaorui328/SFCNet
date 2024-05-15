@@ -2,7 +2,7 @@
 """
 @author: zhaorui@Dalian Minzu University
 @software: PyCharm
-@file: Net.py
+@file: Text.py
 @time: 2024/5/14 16:12
 """
 import os
