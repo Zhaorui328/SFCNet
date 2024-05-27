@@ -347,21 +347,21 @@ class Attention(nn.Module):
         k, v = kv.chunk(2, dim=1)
         q = self.q_dwconv(self.q(x))
 
-        q = rearrange(q, 'b (head c) h w -> b head c (h w)', head=self.num_heads)  # torch.Size([1, 8, 16, 144])
+        q = rearrange(q, 'b (head c) h w -> b head c (h w)', head=self.num_heads)  
         k = rearrange(k, 'b (head c) h w -> b head c (h w)', head=self.num_heads)
         v = rearrange(v, 'b (head c) h w -> b head c (h w)', head=self.num_heads)
 
-        q = torch.nn.functional.normalize(q, dim=-1)       # torch.Size([1, 8, 16, 144])
-        k = torch.nn.functional.normalize(k, dim=-1)    # 归一化 torch.Size([1, 8, 16, 144])
+        q = torch.nn.functional.normalize(q, dim=-1)     
+        k = torch.nn.functional.normalize(k, dim=-1)    
 
-        attn = (q @ k.transpose(-2, -1)) * self.temperature  # 计算注意力权重
+        attn = (q @ k.transpose(-2, -1)) * self.temperature 
         attn = attn.softmax(dim=-1)
 
         out = (attn @ v)
 
         out = rearrange(out, 'b head c (h w) -> b (head c) h w', head=self.num_heads, h=h, w=w)
 
-        out = self.project_out(out) + x     # torch.Size([1, 128, 12, 12])
+        out = self.project_out(out) + x    
         return out
 
 class CIU(nn.Module):
