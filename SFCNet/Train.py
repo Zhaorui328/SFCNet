@@ -159,8 +159,8 @@ def train(train_loader, model, optimizer, epoch, save_path):
             hybrid_loss_3, loss_3 = Hybrid_Loss(F3_out, gts)
             hybrid_loss_4, loss_4 = Hybrid_Loss(F4_out, gts)
             hybrid_loss_5, loss_5 = Hybrid_Loss(F5_out, gts)
-            loss_2_edge = cross_entropy2d_edge(edge_out, edge)
-            losses = loss_1 + loss_2 + loss_3 + loss_4 + loss_2_edge + loss_5
+            loss_edge = cross_entropy2d_edge(edge_out, edge)
+            losses = loss_1 + loss_2 + loss_3 + loss_4 + loss_edge + loss_5
 
             # 反向传播
             losses.backward()
